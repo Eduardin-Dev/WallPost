@@ -1,0 +1,1 @@
+<a href="..\includes\application\crud\Colecao_Post\colecao_delete_post.php?post=<?php echo $_GET['post'] ?>&colecao=<?php echo $_GET['colecao'] ?>" class="excluir_colecao_mural depontaponta">Excluir da coleção</a>

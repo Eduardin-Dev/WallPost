@@ -1,0 +1,1 @@
+<a href="..\includes\application\crud\Mural_Post\Mural_delete_post.php?post=<?php echo $nome_post ?>&mural=<?php echo $_GET['mural'] ?>" class="excluir_colecao_mural depontaponta">Excluir do mural</a>

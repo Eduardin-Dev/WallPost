@@ -1,0 +1,140 @@
+body, h1, form, button, p, a, input, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Qanelas Regular';
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/* FONTES */
+
+@font-face {
+    font-family: 'Qanelas Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fontes/Qanelas Regular'), url('Fontes/QanelasRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Qanelas Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fontes/Qanelas Medium'), url('Fontes/QanelasMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Qanelas SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fontes/Qanelas SemiBold'), url('Fontes/QanelasSemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Qanelas Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fontes/Qanelas Bold'), url('Fontes/QanelasBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neo Sans';
+    src: local('Neo Sans Bold'), local('Neo-Sans-Bold'), url('Fontes/NeoSans-Bold.woff2') format('woff2'), url('Fontes/NeoSans-Bold.woff') format('woff'), url('Fontes/NeoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #F15A24;
+    background-image: url(../img/BORDA---WALLPOST---white.png);
+    background-position: 700px -70vh;
+    background-repeat: no-repeat;
+}
+
+#title {
+    margin-top: 50px;
+    font-size: 3.2em;
+    color: white;
+    font-family: 'Neo Sans';
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: #f15b24c2;
+ }
+
+.block-alter {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 8vh;
+    width: 450px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 15vh;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px){
+    .block-alter{
+        width: 350px;
+    }
+}
+
+@media (max-width: 405px){
+    .block-alter{
+        width: 250px;
+    }
+}
+
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+input:nth-child(1){
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 3vh;
+}
+
+input {
+    padding: 5px;
+    color: #F15A24;
+    border: none;
+    border-bottom: black solid 2px;
+    outline: 0;
+    font-size: 1em;
+}
+
+#button-redefinir {
+    background-color: #F15A24;
+    width: 40%;
+    min-width: 100px;
+    border: #F15A24 2px solid;
+    outline: 0;
+    margin-top: 30px;
+    justify-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, white 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 400ms ease-in-out;
+}
+
+#button-redefinir:hover {
+    border: #F15A24 solid 2px;
+    background-position: 0;
+    color: #F15A24;
+
+}
